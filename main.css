@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(400px, auto);
+}
+
+.blue {
+    background-color: blue;
+    grid-column: 1 span;
+}
+
+.red {
+    background-color: red;
+    grid-column: 1 span;
+}
+
+.green {
+    background-color: green;
+    grid-column: 1 span;
+}
+
+.orange {
+    background-color: orange;
+    grid-column: 1 span;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-column: 1 span;
+}
+
+.pink {
+    background-color: pink;
+    grid-column: 1 span;
+}
+
+.black {
+    background-color: black;
+    grid-column: 2 span;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+/* ---------------------------------|||| RESPONSIVE ||||--------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .blue {
+    }
+
+    .red {
+    }
+
+    .green {
+    }
+
+    .orange {
+    }
+
+    .yellow {
+    }
+
+    .pink {
+    }
+
+    .black {
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .blue {
+    }
+
+    .red {
+    }
+
+    .green {
+    }
+
+    .orange {
+    }
+
+    .yellow {
+    }
+
+    .pink {
+    }
+
+    .black {
+    }
+}
