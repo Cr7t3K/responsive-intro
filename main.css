@@ -23,6 +23,7 @@ section {
 .green {
     background-color: green;
     grid-column: 1 span;
+    display: none;
 }
 
 .orange {
@@ -51,47 +52,29 @@ section {
 /* -------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .blue {
+    .black {
+        grid-column: 4 span !important;
     }
 
-    .red {
+    div, div:not(.black) {
+        grid-column: 2 span !important;
     }
 
     .green {
-    }
-
-    .orange {
-    }
-
-    .yellow {
-    }
-
-    .pink {
-    }
-
-    .black {
+        display: block;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .blue {
-    }
-
-    .red {
+    div {
+        grid-column: 4 span !important;
     }
 
     .green {
-    }
-
-    .orange {
-    }
-
-    .yellow {
-    }
-
-    .pink {
+        display: block;
     }
 
     .black {
+        display: none;
     }
 }
